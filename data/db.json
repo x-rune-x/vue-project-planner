@@ -2,8 +2,8 @@
   "projects": [
     {
       "id": 1,
-      "title": "Create new homepage banner",
-      "details": "Lorem ipsum",
+      "title": "Why isn't the homepage created already!",
+      "details": "bing chilling 2. My name is hirkin.",
       "complete": true
     },
     {
@@ -15,8 +15,14 @@
     {
       "title": "bing chilling",
       "details": "John Cena eating icecream",
-      "complete": false,
+      "complete": true,
       "id": 4
+    },
+    {
+      "title": "Noriaki Kakyoin",
+      "details": "No on can deflect the Emerald Splash!",
+      "complete": false,
+      "id": 5
     }
   ]
 }

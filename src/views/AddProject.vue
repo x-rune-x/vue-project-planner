@@ -4,12 +4,13 @@
       <input type="text" v-model="title" required>
       <label>Details</label>
       <textarea v-model="details" required></textarea>
-      <button>Add Project</button>
+      <button class="add">Add Project</button>
   </form>
 </template>
 
 <script>
 export default {
+    name: 'AddProject',
     data() {
         return {
             title: '',
@@ -64,7 +65,7 @@ textarea {
     box-sizing: border-box;
     height: 100px;
 }
-form button {
+form button.add {
     display: block;
     margin: 20px auto 0;
     background: #00ce89;
