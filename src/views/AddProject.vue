@@ -50,6 +50,7 @@ label {
     font-weight: bold;
     letter-spacing: 1px;
     margin: 20px, 0, 10px, 0;
+    padding-top: 20px;
 }
 input {
     padding: 10px;
